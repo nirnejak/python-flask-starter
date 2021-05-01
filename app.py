@@ -8,6 +8,7 @@ app.wsgi_app = ProxyFix(app.wsgi_app)
 
 app.register_blueprint(auth.bp)
 
+
 @app.route("/", methods=['GET', 'POST'])
 def index_page():
     if request.method == 'POST':

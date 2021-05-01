@@ -1,3 +1,3 @@
 from flask_marshmallow import Marshmallow
 
-ma = Marshmallow(app)
+# ma = Marshmallow(app)
