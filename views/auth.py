@@ -13,6 +13,9 @@ from werkzeug.security import check_password_hash, generate_password_hash
 
 bp = Blueprint('auth', __name__, url_prefix='/auth')
 
-@bp.route('/register', methods=['POST'])
+@bp.route('/register', methods=['GET','POST'])
 def register_user():
-  return 'User Registered'
+  if request.method == 'GET':
+    return 'Register User'
+  else:
+    return 'User Registered'

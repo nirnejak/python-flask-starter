@@ -1,13 +1,12 @@
 from flask import Flask, request, jsonify
-from flask_marshmallow import Marshmallow
 from werkzeug.middleware.proxy_fix import ProxyFix
+
+from views import auth
 
 app = Flask(__name__)
 app.wsgi_app = ProxyFix(app.wsgi_app)
 
 app.register_blueprint(auth.bp)
-
-ma = Marshmallow(app)
 
 @app.route("/", methods=['GET', 'POST'])
 def index_page():
