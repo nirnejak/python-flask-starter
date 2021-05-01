@@ -10,6 +10,8 @@ flask-marshmallow = "*"
 python-dotenv = "*"
 flask-sqlalchemy = "*"
 marshmallow-sqlalchemy = "*"
+redis = "*"
+flask-pymongo = "*"
 
 [dev-packages]
 isort = "*"
