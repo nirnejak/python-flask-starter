@@ -16,13 +16,19 @@ pip3 install pipenv
 pipenv install
 ```
 
-**3. Start Virtual Environment**
+**3. Setup Pre-commit**
+
+```bash
+pre-commit install
+```
+
+**4. Start Virtual Environment**
 
 ```bash
 pipenv shell
 ```
 
-**4. Start Server**
+**5. Start Server**
 
 ```bash
 python3 app.py

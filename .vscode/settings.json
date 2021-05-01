@@ -1,9 +1,16 @@
 {
-  "cSpell.words": ["jsonify"],
+  "cSpell.words": [
+    "jsonify",
+    "werkzeug"
+  ],
   "editor.tabSize": 4,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "ms-python.python",
   "python.linting.lintOnSave": true,
   "python.linting.enabled": true,
+  "python.formatting.provider": "black",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
 }
