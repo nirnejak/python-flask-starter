@@ -1,6 +1,6 @@
-# HackOn Hackathon
+# Python Flask Starter
 
-HackOn Hackathon App Backend
+Python Flask Starter
 
 ## Installation and Setup
 
